@@ -16,7 +16,7 @@ cimport numpy as cnp
 cdef int SAMPLE_RATE = 16000
 cdef char* TEST_FILE = 'test.wav'
 cdef char* DEFAULT_MODEL = 'tiny'
-cdef char* LANGUAGE = b'en'
+cdef char* LANGUAGE = b'es'
 cdef int N_THREADS = os.cpu_count()
 
 MODELS = {
